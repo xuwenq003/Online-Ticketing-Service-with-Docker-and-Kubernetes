@@ -1,5 +1,6 @@
 // Re-export stuff from errors and middlewares
-// new version should be 1.0.6
+// Trying to test version of common
+// new comment
 export * from './errors/bad-request-error';
 export * from './errors/custom-error';
 export * from './errors/database-connection-error';
