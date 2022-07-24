@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
-import {OrderStatus} from '@xqtickets/common';
 import {TicketDoc} from './ticket';
+import {OrderStatus} from '@xqtickets/common';
 
 export {OrderStatus};
 
