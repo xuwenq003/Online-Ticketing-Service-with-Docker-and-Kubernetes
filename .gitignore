@@ -1,4 +1,5 @@
 orders/node_modules
+expiration/node_modules
 nats-test/node_modules
 auth/node_modules
 client/node_modules
