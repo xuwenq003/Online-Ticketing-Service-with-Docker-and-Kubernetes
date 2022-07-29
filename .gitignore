@@ -1,11 +1,2 @@
-orders/node_modules
-payments/node_modules
-expiration/node_modules
-nats-test/node_modules
-auth/node_modules
-client/node_modules
-common/node_modules
-tickets/node_modules
-common/build
-client/.next
+node_modules
 .DS_Store
