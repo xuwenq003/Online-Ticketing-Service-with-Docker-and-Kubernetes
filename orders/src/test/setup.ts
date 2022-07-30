@@ -2,6 +2,8 @@ import {MongoMemoryServer} from 'mongodb-memory-server';
 import mongoose from 'mongoose';
 import jwt from 'jsonwebtoken';
 
+jest.setTimeout(50000);
+
 declare global {
   var signin: () => string[];
 }
