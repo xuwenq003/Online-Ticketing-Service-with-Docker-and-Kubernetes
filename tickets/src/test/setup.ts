@@ -4,6 +4,8 @@ import request from 'supertest';
 import { app } from '../app';
 import jwt from 'jsonwebtoken';
 
+jest.setTimeout(50000);
+
 declare global {
   var signin: () => string[];
 }
